@@ -4,7 +4,7 @@ trigger:
 pool: D65
 
 variables:
-  COMPONENT: python
+  COMPONENT: shipping
 
 
 resources:
@@ -15,5 +15,5 @@ resources:
       endpoint: raghudevopsb65
 
 stages:
-- template: python.yml@templates
+- template: maven.yml@templates
 
