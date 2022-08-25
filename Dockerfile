@@ -6,4 +6,4 @@ WORKDIR   /app
 USER      roboshop
 
 ADD         shipping.jar .
-ENTRYPOINT  ["java", "-jar", "shipping.jar"]
+ENTRYPOINT  ["java", "-Xms${JVM_MEM}m", "-Xmx${JVM_MEM}m", "-jar", "shipping.jar"]
