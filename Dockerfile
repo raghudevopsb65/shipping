@@ -7,4 +7,4 @@ USER      roboshop
 
 ADD         shipping.jar .
 ADD         run.sh /
-ENTRYPOINT  ["bash", "run.sh"]
+ENTRYPOINT  ["sh", "run.sh"]
