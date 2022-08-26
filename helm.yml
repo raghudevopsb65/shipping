@@ -13,4 +13,6 @@ configMap:
     DB_HOST: roboshop-prod-rds.cmscnppwjzuf.us-east-1.rds.amazonaws.com
     JVM_MEM: "1024"
 
+externalSecret:
+  enabled: false
 
