@@ -7,7 +7,7 @@ trigger:
     - main
   tags:
       include: [ "*" ]
-      
+
 pool: D65
 
 variables:
